@@ -14,11 +14,11 @@ import org.springframework.web.bind.annotation.RestController;
 public class AccountController
 {
 
-    @Autowired
-    private CustomerService customerService;
-
-    @PostMapping("/add")
-    public Customer AddCustomer(@RequestBody Customer customer){
-        return customerService.customerAdd(customer);
-    }
+//    @Autowired
+//    private CustomerService customerService;
+//
+//    @PostMapping("/add")
+//    public Customer AddCustomer(@RequestBody Customer customer){
+//        return customerService.customerAdd(customer);
+//    }
 }
